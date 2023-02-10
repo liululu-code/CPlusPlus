@@ -139,7 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="01CPrimerPlus_exercises\chapter02开始学习C++\chapter02.cpp" />
+    <ClCompile Include="01CPrimerPlus_exercises\chapter03处理数据\chapter03.cpp" />
     <ClCompile Include="CPlusPlus.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="01CPrimerPlus_exercises\chapter02开始学习C++\chapter02.h" />
+    <ClInclude Include="01CPrimerPlus_exercises\chapter03处理数据\chapter03.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
