@@ -1,3 +1,5 @@
+#ifndef CHAPTER04_H_
+#define CHAPTER04_H_
 #include <string>
 #include <iostream>
 #include <array>
@@ -27,3 +29,5 @@ public:
 	void ShowArrUseNew();
 	void ShowGrade();
 };
+
+#endif

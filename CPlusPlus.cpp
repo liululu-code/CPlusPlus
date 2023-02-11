@@ -14,7 +14,7 @@ int main()
 {
     //FunChapter02();
     //FunChapter03();
-    FunChapter04();
+    //FunChapter04();
 
     return 0;
 
@@ -27,7 +27,7 @@ void FunChapter04()
     //myClass.PizzaIO();
     //myClass.PizzaIOUseNew();
     //myClass.ShowArrUseNew();
-    myClass.ShowGrade();
+    //myClass.ShowGrade();
 }
 
 void FunChapter03()

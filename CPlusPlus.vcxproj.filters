@@ -27,6 +27,9 @@
     <ClCompile Include="01CPrimerPlus_exercises\chapter04复合类型\chapter04.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="01CPrimerPlus_exercises\chapter05\chapter05.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01CPrimerPlus_exercises\chapter02开始学习C++\chapter02.h">
@@ -36,6 +39,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="01CPrimerPlus_exercises\chapter04复合类型\chapter04.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="01CPrimerPlus_exercises\chapter05\chapter05.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
