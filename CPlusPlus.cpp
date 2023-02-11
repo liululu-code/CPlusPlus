@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include "01CPrimerPlus_exercises/chapter02开始学习C++/chapter02.h"
+#include "01CPrimerPlus_exercises/chapter03处理数据/chapter03.h"
 
 void Fun_Chapter02();
 void Fun_Chapter03();
@@ -10,19 +11,18 @@ void Fun_Chapter03();
 int main()
 {
     //Fun_Chapter02();
+    //Fun_Chapter03();
 
 }
 
 void Fun_Chapter03()
 {
-    //Chapter03 myClass;
+    Chapter03 myClass;
+    myClass.HKPLToMPG();
 }
 
 void Fun_Chapter02()
 {
     Chapter02 myClass;
-    double degreeCentigrade;
-    std::cout << "Enter degreeCentigrade: ";
-    std::cin >> degreeCentigrade;
-    std::cout << myClass.CentigradeToFahrenheit(degreeCentigrade);
+    myClass.CentigradeToFahrenheit();
 }

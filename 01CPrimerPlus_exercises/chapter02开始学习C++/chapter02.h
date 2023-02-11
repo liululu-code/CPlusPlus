@@ -6,7 +6,7 @@ class Chapter02
 private:
 	;
 public:
-	double CentigradeToFahrenheit(double degreeCentigrade);
+	void CentigradeToFahrenheit();
 	
 
 };

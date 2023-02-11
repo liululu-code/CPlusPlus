@@ -13,9 +13,13 @@
 2.4 函数
 	1.main()函数返回值通常由操作系统接收，约定返回 0 表示运行成功，非零表示失败。
 */
-
+#include <iostream>
 #include "chapter02.h"
-double Chapter02::CentigradeToFahrenheit(double degreeCentigrade)
+
+void Chapter02::CentigradeToFahrenheit()
 {
-	return degreeCentigrade * 1.8 + 32;
+	double degreeCentigrade;
+	std::cout << "Enter degreeCentigrade: ";
+	std::cin >> degreeCentigrade;
+	std::cout << degreeCentigrade * 1.8 + 32;
 }

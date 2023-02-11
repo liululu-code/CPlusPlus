@@ -6,7 +6,7 @@ class Chapter03
 private:
 	;
 public:
-
+	void HKPLToMPG();
 };
 
 #endif
