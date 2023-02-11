@@ -4,24 +4,39 @@
 #include <iostream>
 #include "01CPrimerPlus_exercises/chapter02开始学习C++/chapter02.h"
 #include "01CPrimerPlus_exercises/chapter03处理数据/chapter03.h"
+#include "01CPrimerPlus_exercises/chapter04复合类型/chapter04.h"
 
-void Fun_Chapter02();
-void Fun_Chapter03();
+void FunChapter02();
+void FunChapter03();
+void FunChapter04();
 
 int main()
 {
-    //Fun_Chapter02();
-    //Fun_Chapter03();
+    //FunChapter02();
+    //FunChapter03();
+    FunChapter04();
+
+    return 0;
 
 }
+void FunChapter04()
+{
+    Chapter04 myClass;
+    //myClass.ShowSnack();
+    //myClass.ShowArr();
+    //myClass.PizzaIO();
+    //myClass.PizzaIOUseNew();
+    //myClass.ShowArrUseNew();
+    myClass.ShowGrade();
+}
 
-void Fun_Chapter03()
+void FunChapter03()
 {
     Chapter03 myClass;
     myClass.HKPLToMPG();
 }
 
-void Fun_Chapter02()
+void FunChapter02()
 {
     Chapter02 myClass;
     myClass.CentigradeToFahrenheit();
