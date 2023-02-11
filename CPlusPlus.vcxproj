@@ -142,14 +142,14 @@
     <ClCompile Include="01CPrimerPlus_exercises\chapter02开始学习C++\chapter02.cpp" />
     <ClCompile Include="01CPrimerPlus_exercises\chapter03处理数据\chapter03.cpp" />
     <ClCompile Include="01CPrimerPlus_exercises\chapter04复合类型\chapter04.cpp" />
-    <ClCompile Include="01CPrimerPlus_exercises\chapter05\chapter05.cpp" />
+    <ClCompile Include="01CPrimerPlus_exercises\chapter05循环和关系表达式\chapter05.cpp" />
     <ClCompile Include="CPlusPlus.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01CPrimerPlus_exercises\chapter02开始学习C++\chapter02.h" />
     <ClInclude Include="01CPrimerPlus_exercises\chapter03处理数据\chapter03.h" />
     <ClInclude Include="01CPrimerPlus_exercises\chapter04复合类型\chapter04.h" />
-    <ClInclude Include="01CPrimerPlus_exercises\chapter05\chapter05.h" />
+    <ClInclude Include="01CPrimerPlus_exercises\chapter05循环和关系表达式\chapter05.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
