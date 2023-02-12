@@ -15,7 +15,7 @@ class Chapter06
 {
 private:
 	void BOPMenu();
-	void ShowContent(const char choice, const int nums);
+	void ShowContent(char choice, const int nums);
 public:
 	;
 	void FileTest();

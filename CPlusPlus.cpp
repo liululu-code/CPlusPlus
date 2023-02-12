@@ -11,13 +11,14 @@
 #include "01CPrimerPlus_exercises/chapter04复合类型/chapter04.h"
 #include "01CPrimerPlus_exercises/chapter05循环和关系表达式/chapter05.h"
 #include "01CPrimerPlus_exercises/chapter06分支语句和逻辑运算/chapter06.h"
+#include "01CPrimerPlus_exercises/chapter07函数C++的编程模块/chapter07.h"
 
 void FunChapter02();
 void FunChapter03();
 void FunChapter04();
 void FunChapter05();
 void FunChapter06();
-//void FunChapter07();
+void FunChapter07();
 //void FunChapter08();
 //void FunChapter09();
 //void FunChapter10();
@@ -33,11 +34,12 @@ void FunChapter06();
 
 int main()
 {
+
     //FunChapter02();
     //FunChapter03();
     //FunChapter04();
     //FunChapter05();
-    FunChapter06();
+    //FunChapter06();
     //FunChapter07();
     //FunChapter08();
     //FunChapter09();
@@ -113,11 +115,12 @@ int main()
 //    Chapter08 myClass;
 //
 //}
-//void FunChapter07()
-//{
-//    Chapter07 myClass;
-//
-//}
+void FunChapter07()
+{
+    //Chapter07 myClass;
+    //myClass.Mycalculate(3.5, 2.5);
+
+}
 
 void FunChapter06()
 {

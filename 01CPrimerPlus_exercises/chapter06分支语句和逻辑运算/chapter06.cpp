@@ -117,7 +117,7 @@ void Chapter06::BOPMenu()
 	std::cout << "c.display by bopname" << "\t\t" << "d.display by preference" << std::endl;
 	std::cout << "q.quit" << std::endl;
 }
-void Chapter06::ShowContent(const char choice, const int nums)
+void Chapter06::ShowContent(char choice, const int nums)
 {
 	Bop* pBOP = new Bop[nums];
 	std::fstream fin;
@@ -133,8 +133,9 @@ void Chapter06::ShowContent(const char choice, const int nums)
 	//}
 	for (int i = 0; i < nums; i++)
 	{
-		fin.getline(pBOP[i].fullname, STR_SIZE);
-		fin.getline(pBOP[i].title, STR_SIZE);
+		fin.getline(pBOP[i].fullname, STR_SIZE).getline(pBOP[i].title, STR_SIZE);	//将下面两句合成一句
+		//fin.getline(pBOP[i].fullname, STR_SIZE);
+		//fin.getline(pBOP[i].title, STR_SIZE);
 		std::getline(fin, pBOP[i].bopname);
 		(fin >> pBOP[i].preference).get();		//使用get()读取数字后的换行符，防止读取空行关闭输入流
 	}
