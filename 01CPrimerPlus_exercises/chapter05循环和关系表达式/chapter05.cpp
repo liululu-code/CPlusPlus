@@ -40,9 +40,64 @@
 		while (cin.fail() == false) {...};
 		while (!cin.fail()) {...};
 		while (cin) {...};	//这比上面两种方式更通用，因为它可以检测到其他失败原因，如磁盘故障。
-		while ((ch = cin.get()) != EOF) {...};
+		while ((ch = cin.get()) != EOF) {...};	//cin.get()通过返回EOF指出到达文件尾,cin.get(ch)通过返回false指出到达文件尾
 		cin.clear()，重置输入流
-	4.
-
-
+5.6 循环嵌套和二维数组
 */
+/*
+7.设计一个名为car的结构,用它存储下述有关汽车的信息:生产商(存储在字符数组或sring对象中的字符串)、生产年份(整数)。编写一个程序,向用户询问有多少辆汽车。随后,程序使用new来创建一个由相应数量的car结构组成的动态数组。接下来,程序提示用户输入每辆车的生产商(可能由多个单词组成)和年份信息。请注意,这需要特别小心,因为它将交替读取数值和字符串(参见第4章)。最后, 程序将显示每个结构的内容。该程序的运行情况如下:																//ShowCar()
+		How many cars do you wish to catalog? 2 
+		Car #1: Please enter the make: Hudson Hornet 
+		Please enter the year made: 1952 
+		Car #2: Please enter the make: Kaiser 
+		Please enter the year made: 1951 
+		Here is your collection: 
+		1952 Hudson Hornet 
+		1951 Kaiser 
+8.编写一个程序,它使用一个char数组和循环来每次读取一个单词,直到用户输入done为止。随后, 该程序指出用户输入了多少个单词(不包括done在内)。下面是该程序的运行情况: 
+		Enter words (to stop, type the word done) : anteater birthday category dumpster envy finagle geometry done for sure 
+		You entered a total of 7 words.
+	您应在程序中包含头文件cstring并使用函数strcmp()来进行比较测试。				//ShowTotalNum()
+*/
+#include <iostream>
+#include <cstring>
+#include "chapter05.h"
+
+void Chapter05::ShowCar()
+{
+	int num;
+	const int CAR_NAME_SIZE = 30;
+	std::cout << "How many cars do you wish to catalog? ";
+	(std::cin >> num).get();
+	Car* pArr = new Car[num];
+	for (int i = 1; i <= num; i++)
+	{
+		std::cout << "Car #" << i << ": Please enter the make: ";
+		std::getline(std::cin, pArr[i - 1].manufacturer);
+		std::cout << "Please enter the year made: ";
+		(std::cin >> pArr[i - 1].productionYear).get();
+	}
+	std::cout << "Here is your collection :" << std::endl;
+	for (int i = 1; i <= num; i++)
+	{
+		std::cout << pArr[i - 1].productionYear << " " << pArr->manufacturer << std::endl;
+	}
+}
+void Chapter05::ShowTotalNum()
+{
+	const int WORD_NUM = 20;
+	const int ALPHA_NUM = 20;
+	char arr[WORD_NUM][ALPHA_NUM];
+	int totalNum = 0;
+	std::cout << "Enter words (to stop, type the word done): ";
+	for (int i = 0; i < WORD_NUM; i++)
+	{
+		std::cin >> arr[i];
+		if (!strcmp(arr[i], "done"))
+		{
+			break;
+		}
+		totalNum++;
+	}
+	std::cout << "You entered a total of " << totalNum << " words.";
+}

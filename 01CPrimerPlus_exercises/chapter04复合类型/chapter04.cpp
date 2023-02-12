@@ -4,7 +4,7 @@
 	1.确定存储字符所需最短数组时，别忘了将结尾空字符计算在内。
 	2.字符串输入
 		cin: cin使用空白（空格，制表符，换行符）确定字符串结束位置，这意味着cin在输入时只能读取一个单词。
-		面向行的输入
+		面向行的输入	//***char型字符串与string类的输入方式不同，下面两种方法针对char型字符串，不能用于string类
 			cin.getline(name, ARRAYSIZE);	//最多保存ARRAYSIZE - 1个字符，读取指定数目字符或遇到换行符停止读取
 			cin.get(name, ARRAYSIZE);	////最多保存ARRAYSIZE - 1个字符
 			区别：getline()丢弃换行符。get()将换行符保留在输入序列中，要读取掉换行符可以这样使用：cin.get(name, ATTAYSIZE).get();
@@ -130,7 +130,7 @@ void Chapter04::PizzaIO()
 {
 	Pizza pz;
 	std::cout << "Enter pizza brand: ";
-	std::cin >> pz.brand;
+	std::getline(std::cin, pz.brand);
 	std::cout << "Enter pizza diameter: ";
 	std::cin >> pz.diameter;
 	std::cout << "Enter pizza weight: ";
@@ -143,7 +143,7 @@ void Chapter04::PizzaIOUseNew()
 	std::cout << "Enter pizza diameter: ";
 	std::cin >> pz->diameter;
 	std::cout << "Enter pizza brand: ";
-	std::cin >> pz->brand;
+	std::getline(std::cin, pz->brand);
 	std::cout << "Enter pizza weight: ";
 	std::cin >> pz->weight;
 	ShowPizza(*pz);

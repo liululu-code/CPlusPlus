@@ -143,6 +143,8 @@
     <ClCompile Include="01CPrimerPlus_exercises\chapter03处理数据\chapter03.cpp" />
     <ClCompile Include="01CPrimerPlus_exercises\chapter04复合类型\chapter04.cpp" />
     <ClCompile Include="01CPrimerPlus_exercises\chapter05循环和关系表达式\chapter05.cpp" />
+    <ClCompile Include="01CPrimerPlus_exercises\chapter06分支语句和逻辑运算\chapter06.cpp" />
+    <ClCompile Include="01CPrimerPlus_exercises\chapter07函数C++的编程模块\chapter07.cpp" />
     <ClCompile Include="CPlusPlus.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -150,6 +152,11 @@
     <ClInclude Include="01CPrimerPlus_exercises\chapter03处理数据\chapter03.h" />
     <ClInclude Include="01CPrimerPlus_exercises\chapter04复合类型\chapter04.h" />
     <ClInclude Include="01CPrimerPlus_exercises\chapter05循环和关系表达式\chapter05.h" />
+    <ClInclude Include="01CPrimerPlus_exercises\chapter06分支语句和逻辑运算\chapter06.h" />
+    <ClInclude Include="01CPrimerPlus_exercises\chapter07函数C++的编程模块\chapter07.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="01CPrimerPlus_exercises\chapter06分支语句和逻辑运算\BOP.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

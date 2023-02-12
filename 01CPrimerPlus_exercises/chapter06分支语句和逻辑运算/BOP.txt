@@ -1,0 +1,20 @@
+Wimp Macho
+title Wimp Macho
+bopname Wimp Macho
+0
+Raki Rhodes
+title Raki Rhodes
+bopname Raki Rhodes
+1
+Celia Laiter
+title Celia Laiter
+bopname Celia Laiter
+2
+Hoppy Hipman
+title Hoppy Hipman
+bopname Hoppy Hipman
+0
+Pat Hand
+title Pat Hand
+bopname Pat Hand
+1
