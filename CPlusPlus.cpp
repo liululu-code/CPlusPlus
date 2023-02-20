@@ -12,6 +12,7 @@
 #include "01CPrimerPlus_exercises/chapter05循环和关系表达式/chapter05.h"
 #include "01CPrimerPlus_exercises/chapter06分支语句和逻辑运算/chapter06.h"
 #include "01CPrimerPlus_exercises/chapter07函数C++的编程模块/chapter07.h"
+#include "01CPrimerPlus_exercises/chapter08函数探幽/chapter08.h"
 
 void FunChapter02();
 void FunChapter03();
@@ -19,7 +20,7 @@ void FunChapter04();
 void FunChapter05();
 void FunChapter06();
 void FunChapter07();
-//void FunChapter08();
+void FunChapter08();
 //void FunChapter09();
 //void FunChapter10();
 //void FunChapter11();
@@ -40,8 +41,8 @@ int main()
     //FunChapter04();
     //FunChapter05();
     //FunChapter06();
-    //FunChapter07();
-    //FunChapter08();
+    //FunChapter07();   //error
+    FunChapter08();
     //FunChapter09();
     //FunChapter10();
     //FunChapter11();
@@ -52,6 +53,7 @@ int main()
     //FunChapter16();
     //FunChapter17();
     //FunChapter18();
+
     return 0;
 
 }
@@ -110,11 +112,12 @@ int main()
 //    Chapter09 myClass;
 //
 //}
-//void FunChapter08()
-//{
-//    Chapter08 myClass;
-//
-//}
+void FunChapter08()
+{
+    Chapter08 myClass;
+    myClass.ShowMax();
+
+}
 void FunChapter07()
 {
     //Chapter07 myClass;

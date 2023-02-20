@@ -78,7 +78,7 @@
 */
 #include <iostream>
 #include "chapter07.h"
-//本章代码运行失败
+//本章代码运行失败，并非代码错误，只是传递函数的指针无法在类中使用，或者说我不会，在main()函数中运行正常
 double Chapter07::Add(double x, double y)
 {
 	return x + y;
@@ -90,7 +90,8 @@ double Chapter07::Calculate(double x, double y, double (*PFun)(double, double))
 }
 double Chapter07::Mycalculate(double x, double y)
 {
-	double (*PFun)(double, double);
+	//double (*PFun)(double, double);
 	//PFun = Add;		//error!  将函数指针指向类成员函数好像不行，在main()函数中测试没有问题
-	return Calculate(x, y, PFun);
+	//return Calculate(x, y, PFun);
+	return 1.0;	//函数必须返回一个值
 }

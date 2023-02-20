@@ -127,16 +127,12 @@ void Chapter06::ShowContent(char choice, const int nums)
 		//std::cout << "failed open.";
 		exit(EXIT_FAILURE);
 	}
-	//else
-	//{
-	//	std::cout << "open!!!";
-	//}
 	for (int i = 0; i < nums; i++)
 	{
-		fin.getline(pBOP[i].fullname, STR_SIZE).getline(pBOP[i].title, STR_SIZE);	//将下面两句合成一句
+		fin.getline(pBOP[i].fullname, STR_SIZE).getline(pBOP[i].title, STR_SIZE);	//将下面两句合成一句		//char* 类型
 		//fin.getline(pBOP[i].fullname, STR_SIZE);
 		//fin.getline(pBOP[i].title, STR_SIZE);
-		std::getline(fin, pBOP[i].bopname);
+		std::getline(fin, pBOP[i].bopname);			//string类型
 		(fin >> pBOP[i].preference).get();		//使用get()读取数字后的换行符，防止读取空行关闭输入流
 	}
 
