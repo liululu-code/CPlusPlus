@@ -39,6 +39,9 @@
     <ClCompile Include="01CPrimerPlus_exercises\chapter08函数探幽\chapter08.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="01CPrimerPlus_exercises\chapter09内存模型与名称空间\chapter09.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01CPrimerPlus_exercises\chapter02开始学习C++\chapter02.h">
@@ -60,6 +63,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="01CPrimerPlus_exercises\chapter08函数探幽\chapter08.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="01CPrimerPlus_exercises\chapter09内存模型与名称空间\chapter09.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
