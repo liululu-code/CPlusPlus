@@ -148,6 +148,7 @@
     <ClCompile Include="01CPrimerPlus_exercises\chapter08函数探幽\chapter08.cpp" />
     <ClCompile Include="01CPrimerPlus_exercises\chapter09内存模型与名称空间\chapter09.cpp" />
     <ClCompile Include="01CPrimerPlus_exercises\chapter10对象和类\chapter10.cpp" />
+    <ClCompile Include="01CPrimerPlus_exercises\chapter11使用类\chapter11.cpp" />
     <ClCompile Include="CPlusPlus.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -160,6 +161,7 @@
     <ClInclude Include="01CPrimerPlus_exercises\chapter08函数探幽\chapter08.h" />
     <ClInclude Include="01CPrimerPlus_exercises\chapter09内存模型与名称空间\chapter09.h" />
     <ClInclude Include="01CPrimerPlus_exercises\chapter10对象和类\chapter10.h" />
+    <ClInclude Include="01CPrimerPlus_exercises\chapter11使用类\chapter11.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="01CPrimerPlus_exercises\chapter06分支语句和逻辑运算\BOP.txt" />

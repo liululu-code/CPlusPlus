@@ -15,6 +15,7 @@
 #include "01CPrimerPlus_exercises/chapter08函数探幽/chapter08.h"
 #include "01CPrimerPlus_exercises/chapter09内存模型与名称空间/chapter09.h"
 #include "01CPrimerPlus_exercises/chapter10对象和类/chapter10.h"
+#include "01CPrimerPlus_exercises/chapter11使用类/chapter11.h"
 
 void FunChapter02();
 void FunChapter03();
@@ -25,8 +26,8 @@ void FunChapter07();
 void FunChapter08();
 void FunChapter09();
 void FunChapter10();
-//void FunChapter11();
-//void FunChapter12();
+void FunChapter11();
+void FunChapter12();
 //void FunChapter13();
 //void FunChapter14();
 //void FunChapter15();
@@ -46,9 +47,9 @@ int main()
     //FunChapter07();   //error
     //FunChapter08();     //不完整
     //FunChapter09();
-    FunChapter10();
+    //FunChapter10();
     //FunChapter11();
-    //FunChapter12();
+    FunChapter12();
     //FunChapter13();
     //FunChapter14();
     //FunChapter15();
@@ -89,21 +90,16 @@ int main()
 //    Chapter13 myClass;
 //
 //}
-//void FunChapter12()
-//{
-//    Chapter12 myClass;
-//
-//}
-//void FunChapter11()
-//{
-//    Chapter11 myClass;
-//
-//}
-//void FunChapter06()
-//{
-//    Chapter06 myClass;
-//
-//}
+void FunChapter12()
+{
+    Chapter12 myClass;
+
+}
+void FunChapter11()
+{
+    Chapter11 myClass;
+    myClass.Run();
+}
 void FunChapter10()
 {
     Chapter10 myClass;
