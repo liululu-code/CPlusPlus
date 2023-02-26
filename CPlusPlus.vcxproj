@@ -149,6 +149,13 @@
     <ClCompile Include="01CPrimerPlus_exercises\chapter09内存模型与名称空间\chapter09.cpp" />
     <ClCompile Include="01CPrimerPlus_exercises\chapter10对象和类\chapter10.cpp" />
     <ClCompile Include="01CPrimerPlus_exercises\chapter11使用类\chapter11.cpp" />
+    <ClCompile Include="01CPrimerPlus_exercises\chapter12类和动态内存分配\chapter12.cpp" />
+    <ClCompile Include="01CPrimerPlus_exercises\chapter13\chapter13.cpp" />
+    <ClCompile Include="01CPrimerPlus_exercises\chapter14\chapter14.cpp" />
+    <ClCompile Include="01CPrimerPlus_exercises\chapter15\chapter15.cpp" />
+    <ClCompile Include="01CPrimerPlus_exercises\chapter16\chapter16.cpp" />
+    <ClCompile Include="01CPrimerPlus_exercises\chapter17\chapter17.cpp" />
+    <ClCompile Include="01CPrimerPlus_exercises\chapter18\chapter18.cpp" />
     <ClCompile Include="CPlusPlus.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -162,6 +169,13 @@
     <ClInclude Include="01CPrimerPlus_exercises\chapter09内存模型与名称空间\chapter09.h" />
     <ClInclude Include="01CPrimerPlus_exercises\chapter10对象和类\chapter10.h" />
     <ClInclude Include="01CPrimerPlus_exercises\chapter11使用类\chapter11.h" />
+    <ClInclude Include="01CPrimerPlus_exercises\chapter12类和动态内存分配\chapter12.h" />
+    <ClInclude Include="01CPrimerPlus_exercises\chapter13\chapter13.h" />
+    <ClInclude Include="01CPrimerPlus_exercises\chapter14\chapter14.h" />
+    <ClInclude Include="01CPrimerPlus_exercises\chapter15\chapter15.h" />
+    <ClInclude Include="01CPrimerPlus_exercises\chapter16\chapter16.h" />
+    <ClInclude Include="01CPrimerPlus_exercises\chapter17\chapter17.h" />
+    <ClInclude Include="01CPrimerPlus_exercises\chapter18\chapter18.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="01CPrimerPlus_exercises\chapter06分支语句和逻辑运算\BOP.txt" />

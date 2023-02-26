@@ -16,6 +16,7 @@
 #include "01CPrimerPlus_exercises/chapter09内存模型与名称空间/chapter09.h"
 #include "01CPrimerPlus_exercises/chapter10对象和类/chapter10.h"
 #include "01CPrimerPlus_exercises/chapter11使用类/chapter11.h"
+#include "01CPrimerPlus_exercises/chapter12类和动态内存分配/chapter12.h"
 
 void FunChapter02();
 void FunChapter03();
@@ -93,7 +94,7 @@ int main()
 void FunChapter12()
 {
     Chapter12 myClass;
-
+    myClass.Run();
 }
 void FunChapter11()
 {
