@@ -51,10 +51,10 @@
     <ClCompile Include="01CPrimerPlus_exercises\chapter12类和动态内存分配\chapter12.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="01CPrimerPlus_exercises\chapter13\chapter13.cpp">
+    <ClCompile Include="01CPrimerPlus_exercises\chapter13类继承\chapter13.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="01CPrimerPlus_exercises\chapter14\chapter14.cpp">
+    <ClCompile Include="01CPrimerPlus_exercises\chapter14C++中的代码重用技术\chapter14.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="01CPrimerPlus_exercises\chapter15\chapter15.cpp">
@@ -104,10 +104,10 @@
     <ClInclude Include="01CPrimerPlus_exercises\chapter12类和动态内存分配\chapter12.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="01CPrimerPlus_exercises\chapter13\chapter13.h">
+    <ClInclude Include="01CPrimerPlus_exercises\chapter13类继承\chapter13.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="01CPrimerPlus_exercises\chapter14\chapter14.h">
+    <ClInclude Include="01CPrimerPlus_exercises\chapter14C++中的代码重用技术\chapter14.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="01CPrimerPlus_exercises\chapter15\chapter15.h">

@@ -86,7 +86,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -150,8 +150,8 @@
     <ClCompile Include="01CPrimerPlus_exercises\chapter10对象和类\chapter10.cpp" />
     <ClCompile Include="01CPrimerPlus_exercises\chapter11使用类\chapter11.cpp" />
     <ClCompile Include="01CPrimerPlus_exercises\chapter12类和动态内存分配\chapter12.cpp" />
-    <ClCompile Include="01CPrimerPlus_exercises\chapter13\chapter13.cpp" />
-    <ClCompile Include="01CPrimerPlus_exercises\chapter14\chapter14.cpp" />
+    <ClCompile Include="01CPrimerPlus_exercises\chapter13类继承\chapter13.cpp" />
+    <ClCompile Include="01CPrimerPlus_exercises\chapter14C++中的代码重用技术\chapter14.cpp" />
     <ClCompile Include="01CPrimerPlus_exercises\chapter15\chapter15.cpp" />
     <ClCompile Include="01CPrimerPlus_exercises\chapter16\chapter16.cpp" />
     <ClCompile Include="01CPrimerPlus_exercises\chapter17\chapter17.cpp" />
@@ -170,8 +170,8 @@
     <ClInclude Include="01CPrimerPlus_exercises\chapter10对象和类\chapter10.h" />
     <ClInclude Include="01CPrimerPlus_exercises\chapter11使用类\chapter11.h" />
     <ClInclude Include="01CPrimerPlus_exercises\chapter12类和动态内存分配\chapter12.h" />
-    <ClInclude Include="01CPrimerPlus_exercises\chapter13\chapter13.h" />
-    <ClInclude Include="01CPrimerPlus_exercises\chapter14\chapter14.h" />
+    <ClInclude Include="01CPrimerPlus_exercises\chapter13类继承\chapter13.h" />
+    <ClInclude Include="01CPrimerPlus_exercises\chapter14C++中的代码重用技术\chapter14.h" />
     <ClInclude Include="01CPrimerPlus_exercises\chapter15\chapter15.h" />
     <ClInclude Include="01CPrimerPlus_exercises\chapter16\chapter16.h" />
     <ClInclude Include="01CPrimerPlus_exercises\chapter17\chapter17.h" />

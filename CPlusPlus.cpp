@@ -17,6 +17,8 @@
 #include "01CPrimerPlus_exercises/chapter10对象和类/chapter10.h"
 #include "01CPrimerPlus_exercises/chapter11使用类/chapter11.h"
 #include "01CPrimerPlus_exercises/chapter12类和动态内存分配/chapter12.h"
+#include "01CPrimerPlus_exercises/chapter13类继承/chapter13.h"
+#include "01CPrimerPlus_exercises/chapter14C++中的代码重用技术/chapter14.h"
 
 void FunChapter02();
 void FunChapter03();
@@ -29,8 +31,8 @@ void FunChapter09();
 void FunChapter10();
 void FunChapter11();
 void FunChapter12();
-//void FunChapter13();
-//void FunChapter14();
+void FunChapter13();
+void FunChapter14();
 //void FunChapter15();
 //void FunChapter16();
 //void FunChapter17();
@@ -50,9 +52,9 @@ int main()
     //FunChapter09();
     //FunChapter10();
     //FunChapter11();
-    FunChapter12();
+    //FunChapter12();
     //FunChapter13();
-    //FunChapter14();
+    FunChapter14();
     //FunChapter15();
     //FunChapter16();
     //FunChapter17();
@@ -81,16 +83,17 @@ int main()
 //    Chapter15 myClass;
 //
 //}
-//void FunChapter14()
-//{
-//    Chapter14 myClass;
-//
-//}
-//void FunChapter13()
-//{
-//    Chapter13 myClass;
-//
-//}
+void FunChapter14()
+{
+    Chapter14 myClass;
+    myClass.Run();
+}
+void FunChapter13()
+{
+    Chapter13 myClass;
+    myClass.Run();
+
+}
 void FunChapter12()
 {
     Chapter12 myClass;
