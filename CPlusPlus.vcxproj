@@ -152,7 +152,7 @@
     <ClCompile Include="01CPrimerPlus_exercises\chapter12类和动态内存分配\chapter12.cpp" />
     <ClCompile Include="01CPrimerPlus_exercises\chapter13类继承\chapter13.cpp" />
     <ClCompile Include="01CPrimerPlus_exercises\chapter14C++中的代码重用技术\chapter14.cpp" />
-    <ClCompile Include="01CPrimerPlus_exercises\chapter15\chapter15.cpp" />
+    <ClCompile Include="01CPrimerPlus_exercises\chapter15友元、异常和其他\chapter15.cpp" />
     <ClCompile Include="01CPrimerPlus_exercises\chapter16\chapter16.cpp" />
     <ClCompile Include="01CPrimerPlus_exercises\chapter17\chapter17.cpp" />
     <ClCompile Include="01CPrimerPlus_exercises\chapter18\chapter18.cpp" />
@@ -172,7 +172,7 @@
     <ClInclude Include="01CPrimerPlus_exercises\chapter12类和动态内存分配\chapter12.h" />
     <ClInclude Include="01CPrimerPlus_exercises\chapter13类继承\chapter13.h" />
     <ClInclude Include="01CPrimerPlus_exercises\chapter14C++中的代码重用技术\chapter14.h" />
-    <ClInclude Include="01CPrimerPlus_exercises\chapter15\chapter15.h" />
+    <ClInclude Include="01CPrimerPlus_exercises\chapter15友元、异常和其他\chapter15.h" />
     <ClInclude Include="01CPrimerPlus_exercises\chapter16\chapter16.h" />
     <ClInclude Include="01CPrimerPlus_exercises\chapter17\chapter17.h" />
     <ClInclude Include="01CPrimerPlus_exercises\chapter18\chapter18.h" />

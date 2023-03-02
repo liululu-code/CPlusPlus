@@ -57,7 +57,7 @@
     <ClCompile Include="01CPrimerPlus_exercises\chapter14C++中的代码重用技术\chapter14.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="01CPrimerPlus_exercises\chapter15\chapter15.cpp">
+    <ClCompile Include="01CPrimerPlus_exercises\chapter15友元、异常和其他\chapter15.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="01CPrimerPlus_exercises\chapter16\chapter16.cpp">
@@ -110,7 +110,7 @@
     <ClInclude Include="01CPrimerPlus_exercises\chapter14C++中的代码重用技术\chapter14.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="01CPrimerPlus_exercises\chapter15\chapter15.h">
+    <ClInclude Include="01CPrimerPlus_exercises\chapter15友元、异常和其他\chapter15.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="01CPrimerPlus_exercises\chapter16\chapter16.h">
